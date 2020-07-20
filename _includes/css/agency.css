@@ -173,13 +173,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-/*      */
     background-color: #000	; 
 }
-
+/*   nav bar 제일 왼쪽   */
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+/*     color: #{{ site.data.template.color.primary }}; */
+
+    color: #f8f8f8
 }
 
 .navbar-default .navbar-brand:hover,
@@ -260,7 +261,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #2220;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -278,7 +279,7 @@ header {
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: auto;
+    background-size: cover;
     -o-background-size: cover;
 }
 
@@ -306,12 +307,12 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 1000px;
+        padding-bottom: 20px;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 30px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
         font-style: italic;
@@ -322,7 +323,7 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
+        font-size: 70px;
         font-weight: 700;
         line-height: 75px;
     }
