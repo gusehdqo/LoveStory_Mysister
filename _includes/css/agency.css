@@ -195,8 +195,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+/*     모바일 오른쪽 메뉴아이콘 */
+/*     border-color: #{{ site.data.template.color.primary }}; */
+    border-color: #e74c3c85;
+/*     background-color: #{{ site.data.template.color.primary }}; */
+    background-color: #fed13605;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
