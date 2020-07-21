@@ -120,15 +120,18 @@ fieldset[disabled] .btn-primary.active {
 
 /* main button */
 .btn-xl {
+/*     헤드 버튼 */
     padding: 10px 20px;
-    border-color: #{{ site.data.template.color.primary }};
+/*     border-color: #{{ site.data.template.color.primary }}; */
+    border-color: #f8f8f824; 
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color: #00F	;
-    background-color: #{{ site.data.template.color.primary }};
+    color: #f5f5f5	;
+/*     background-color: #{{ site.data.template.color.primary }}; */
+     background-color: #fed13600;
 }
 
 .btn-xl:hover,
@@ -173,7 +176,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #000	; 
+/*     메뉴바 전체 색 */
+    background-color: #eeeeee00	; 
 }
 /*   nav bar 제일 왼쪽   */
 .navbar-default .navbar-brand {
@@ -197,18 +201,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle {
 /*     모바일 오른쪽 메뉴아이콘 */
 /*     border-color: #{{ site.data.template.color.primary }}; */
-    border-color: #e74c3c85;
+    border-color: #e74c3c00;
 /*     background-color: #{{ site.data.template.color.primary }}; */
-    background-color: #fed13605;
+    background-color: #fed13600;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #ff572273;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.data.template.color.primary }};
+/*     background-color: #{{ site.data.template.color.primary }}; */
+    background-color: #fed13600;
 }
 
 .navbar-default .nav li a {
@@ -287,7 +292,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 400px;
+    padding-top: 450px;
     padding-bottom: 40px;
 }
 /* main first line */
