@@ -304,7 +304,8 @@ header .intro-text {
 /* main first line */
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
+/*     font-family: {{ site.data.template.font.secondary }}; */
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -313,7 +314,8 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+/*     font-family: {{ site.data.template.font.primary }}; */
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 50px;
