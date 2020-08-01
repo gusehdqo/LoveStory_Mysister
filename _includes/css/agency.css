@@ -289,6 +289,12 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+/*     흑백 */
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url(#greyscale);
+    filter: gray;
 }
 
 header .intro-text {
