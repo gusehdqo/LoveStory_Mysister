@@ -189,7 +189,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: 'Nanum Myeongjo', serif;
 /*     color: #{{ site.data.template.color.primary }}; */
 
-    color: #f8f8f8
+    color: #f8f8f800;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -212,7 +212,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ff572273;
+/*     background-color: #ff572273; */
+ background-color:#22ff5700;
 }
 
 .navbar-default .navbar-toggle:hover,
