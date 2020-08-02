@@ -904,3 +904,11 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+/* 지도 default */
+.map-icon {
+    width: 48px;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
