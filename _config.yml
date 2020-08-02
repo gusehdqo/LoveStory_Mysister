@@ -63,3 +63,6 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Disqus settings
+disqus_shortname : gusehdqo-github-io
