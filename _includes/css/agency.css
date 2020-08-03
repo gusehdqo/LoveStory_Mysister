@@ -126,8 +126,8 @@ fieldset[disabled] .btn-primary.active {
 /*     헤드 버튼 */
     padding: 10px 20px;
 /*     border-color: #{{ site.data.template.color.primary }}; */
-    border-color: #f8f8f824; 
-    border-radius: 3px;
+    border-color: #f8f8f800; 
+    border-radius: 0px;
     text-transform: uppercase;
 /*     font-family: {{ site.data.template.font.primary }}; */
     font-family: 'Nanum Myeongjo', serif;
