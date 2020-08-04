@@ -693,7 +693,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222222a8;
+    background-color: #222222;
 /*     background-image: url('{{ site.baseurl }}/img/map-image.png'); */
     background-position: center;
     background-repeat: no-repeat;
