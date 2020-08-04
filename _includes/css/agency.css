@@ -12,7 +12,7 @@ body {
 }
 
 .text-muted {
-    color: #{{ site.data.template.color.muted }};
+    color: #333333;
 }
 
 .text-primary {
@@ -367,12 +367,12 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 7px;
     text-transform: none;
 /*     font-family: {{ site.data.template.font.secondary }}; */
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 16px;
-    font-style: italic;
+    font-size: 20px;
+/*     font-style: italic; */
     font-weight: 400;
 }
 
@@ -471,6 +471,7 @@ section h3.section-subheading {
     position: relative;
     padding: 0;
     list-style: none;
+    margin-top: 50px;
 }
 
 .timeline:before {
