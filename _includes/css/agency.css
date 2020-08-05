@@ -288,7 +288,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #f8f8f8;
     background-attachment: scroll;
     /* 메인 사진 bae 20200719 */
     background-image: url('{{ site.baseurl }}/img/testmain1.jpg'); 
@@ -316,20 +316,22 @@ header .intro-text .intro-lead-in {
 /*     font-family: {{ site.data.template.font.secondary }}; */
 /*     font-family: 'Nanum Myeongjo', serif; */
     font-family: 'Great Vibes', cursive;
-    font-size: 22px;
+    font-size: 60px;
     font-style: italic;
-    line-height: 22px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
 }
 /* main second line */
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
+/*     text-transform: uppercase; */
 /*     font-family: {{ site.data.template.font.primary }}; */
 /*     font-family: 'Nanum Myeongjo', serif; */
     font-family: 'Noto Serif KR', serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 50px;
+    letter-spacing: -0.5px;
 }
 
 @media(min-width:768px) {
