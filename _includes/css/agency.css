@@ -328,8 +328,8 @@ header .intro-text .intro-heading {
 /*     font-family: {{ site.data.template.font.primary }}; */
 /*     font-family: 'Nanum Myeongjo', serif; */
     font-family: 'Noto Serif KR', serif;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 550;
     line-height: 50px;
     letter-spacing: -0.5px;
 }
