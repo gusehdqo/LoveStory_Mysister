@@ -328,7 +328,8 @@ header .intro-text .intro-heading {
 /*     font-family: {{ site.data.template.font.primary }}; */
 /*     font-family: 'Nanum Myeongjo', serif; */
 /*     font-family: 'Noto Serif KR', serif; */
-    font-family: 'PT Sans', sans-serif;
+/*     font-family: 'PT Sans', sans-serif; */   
+    font-family: 'Playfair Display', serif;
     font-size: 22px;
     font-weight: 550;
     line-height: 50px;
