@@ -958,3 +958,25 @@ body {
     .gallery-thumbs .swiper-slide-thumb-active {
       opacity: 1;
     }
+
+/* ピリオドアフター用のクラス作成（参考サイトとクラス名同じ）.bul:afterまで*/
+    .bul {
+        position: relative;
+        width: 0.750rem;
+        height: 1.5rem;
+        overflow: hidden;
+        float:left;
+    }
+
+    .bul:after {
+        content: '.';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        display: block;
+        font-size: 0.813rem;
+        font-weight: 400;
+        line-height: 1;
+        text-align: center;    
+    }
