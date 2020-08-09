@@ -970,6 +970,7 @@ body {
 
     .bul:after {
         content: '.';
+        font-size: 0.813rem;
         position: absolute;
         left: 0;
         top: 0;
