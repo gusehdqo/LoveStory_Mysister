@@ -4,8 +4,8 @@ subtitle: test Design
 layout: default
 modal-id: 30
 date: 2020-08-01
-img: calendar_content.png
-thumbnail: calendar_content.png
+img: calendar_content.jpg
+thumbnail: calendar_content.jpg
 alt: image-alt
 project-date: july 2020
 client: Start Bootstrap
