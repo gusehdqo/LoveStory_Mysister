@@ -962,6 +962,7 @@ body {
 /* ピリオドアフター用のクラス作成（参考サイトとクラス名同じ）.bul:afterまで*/
     .bul {
         position: relative;
+        font-size: 0.813rem;
         width: 0.750rem;
         height: 1.5rem;
         overflow: hidden;
@@ -970,7 +971,6 @@ body {
 
     .bul:after {
         content: '.';
-        font-size: 0.813rem;
         position: absolute;
         left: 0;
         top: 0;
