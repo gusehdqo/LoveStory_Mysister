@@ -15,7 +15,7 @@
                 </div> -->
               
 <!--               카카오톡 공유 -->
-<!--               <a id="kakao-link-btn">
+              <a id="kakao-link-btn">
 <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/>
 </a>
      
@@ -25,6 +25,8 @@
     // // 사용할 앱의 JavaScript 키를 설정해 주세요.
     Kakao.init('4ce324656edaa1ee22e575121ff0f2a0');
     // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+    Kakao.Link.createScrapButton(DefaultButtonSettings);
+                
     Kakao.Link.createDefaultButton({
       container: '#kakao-link-btn',
       objectType: 'feed',
@@ -60,8 +62,8 @@
       ]
     });
   //]]>
-</script> -->
-              Kakao.Link.createScrapButton(DefaultButtonSettings);
+</script>
+<!--               Kakao.Link.createScrapButton(DefaultButtonSettings);
               
               Kakao.Link.createDefaultButton({
   container: '#CONTAINER_ID',
@@ -95,7 +97,7 @@
       },
     },
   ]
-});
+}); -->
                            
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
