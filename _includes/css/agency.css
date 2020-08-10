@@ -292,7 +292,7 @@ header {
     background-attachment: scroll;
     /* 메인 사진 bae 20200719 */
     background-image: url('{{ site.baseurl }}/img/testmain1.jpg'); 
-    background-position: center center;
+    background-position: 20% center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
