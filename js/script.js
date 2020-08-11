@@ -15,7 +15,20 @@
 //   thumbs: {
 //     swiper: galleryThumbs
 //   }
-// });
+// })
+
+
+/**
+ * highlight.js
+ */
+window.addEventListener('DOMContentLoaded', function() {
+  [].forEach.call(document.querySelectorAll('pre > code'), function(elem) {
+    elem.textContent = elem.textContent.replace(/^[\r\n]+|[\r\n]+$/g, '');
+
+    hljs.highlightBlock(elem);
+    hljs.lineNumbersBlock(elem);
+  });
+}, false);
 
 // Sample06
 window.addEventListener('DOMContentLoaded', function() {
