@@ -1001,3 +1001,8 @@ body {
     .sample06 .thumbnail .swiper-wrapper {
       margin-left: calc(-37.5% - 5px);
     }
+
+/* 출처: https://uxgjs.tistory.com/141 [UX 공작소] */
+.swiper-container { width: 600px; height: 300px; }
+
+
