@@ -1004,6 +1004,11 @@ body {
       margin-left: calc(-37.5% - 5px);
     }
 
-
+    .sample {
+      margin-bottom: 30px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+    }
 
 
