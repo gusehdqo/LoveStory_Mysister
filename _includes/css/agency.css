@@ -369,7 +369,7 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 section h3.section-subheading {
@@ -380,6 +380,8 @@ section h3.section-subheading {
     font-size: 20px;
 /*     font-style: italic; */
     font-weight: 400;
+    text-align: center;
+    white-space: pre-wrap;
 }
 
 @media(min-width:768px) {
