@@ -316,7 +316,7 @@ header .intro-text .intro-lead-in {
 /*     font-family: {{ site.data.template.font.secondary }}; */
 /*     font-family: 'Nanum Myeongjo', serif; */
     font-family: 'Great Vibes', cursive;
-    font-size: 40px;
+    font-size: 50px;
     font-style: italic;
     line-height: 30px;
     letter-spacing: 1.5px;
