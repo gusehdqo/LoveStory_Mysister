@@ -73,7 +73,34 @@
       <div class="swiper-slide" style="background-image:url(./img/portfolio/test1.jpg)"></div>
     </div>
   </div>
-            </div>     
+            </div>   
+            
+            
+            <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      thumbs: {
+        swiper: galleryThumbs
+      }
+    });
+  </script>
+            
+            
             
 <!--             swiper 引用URL: -->
 <!--             <div class="sample sample06">
