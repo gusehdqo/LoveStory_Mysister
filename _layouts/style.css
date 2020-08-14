@@ -1,6 +1,7 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
 /* swiper */
+{% include css/swiper.min.css %}
 /* {% include css/highlight.js.css %}
 {% include css/swiper.min.css %}
 {% include css/style.css %}
