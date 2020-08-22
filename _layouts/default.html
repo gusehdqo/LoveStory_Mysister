@@ -69,32 +69,34 @@
          <!-- Swiper JS -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
       <script style>
-        const carouselModule = (() => {
-          return {
-            configure: () => {
-            const mySwiper1 = new Swiper('.swiper1', {
-            spaceBetween: 10,
-            navigation: {
-              nextEl: '.next1',
-              prevEl: '.prev1'
-            }
-          });
+        //スライダー
+        var mainSlider = new Swiper('.swiper1', {
+          centeredSlides: true,
+          loop:true,
+          navigation: {
+            nextEl: '.swiper-button-next next1',
+            prevEl: '.swiper-button-prev prev1',
+          }
+        });
 
-          const mySwiper2 = new Swiper('.swiper2', {
-            slideToClickedSlide: true,
-            controller: {
-              control: mySwiper1,
-              inverse: false,
-              by: 'slide'
-            },
-            spaceBetween: 10,
-            slidesPerView: 3,
-            slideToClickedSlide: true
-          });
-          mySwiper1.controller.control = mySwiper2;
-        },
-      }
-    })();
+        //サムネイル
+        var Thumbnail = new Swiper('.swiper2', {
+          slidesPerView: 5,
+          loop:true,
+          centeredSlides:true,
+          slideToClickedSlide: true,
+        });
+
+        // スライド遷移時にイベントが発生する slideChange というAPIを使用
+        // スライダーをスライドした時にサムネイルを移動させる
+        mainSlider.on('slideChange', () => {
+            // realIndex は現在activeになっているスライドの番号が入っている
+            Thumbnail.slideToLoop(mainSlider.realIndex);
+        });
+        // サムネイルをスライドした時にメインスライドを連動させる(上記と逆)
+          Thumbnail.on('slideChange', () => {
+            mainSlider.slideToLoop(Thumbnail.realIndex);
+        });
         
      </script>
      
