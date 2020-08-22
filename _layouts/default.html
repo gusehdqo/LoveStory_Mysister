@@ -69,7 +69,10 @@
          <!-- Swiper JS -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
       <script style>
-            var mySwiper1 = new Swiper('.swiper1', {
+        const carouselModule = (() => {
+          return {
+            configure: () => {
+            const mySwiper1 = new Swiper('.swiper1', {
             spaceBetween: 10,
             navigation: {
               nextEl: '.next1',
@@ -77,7 +80,7 @@
             }
           });
 
-          var mySwiper2 = new Swiper('.swiper2', {
+          const mySwiper2 = new Swiper('.swiper2', {
             slideToClickedSlide: true,
             controller: {
               control: mySwiper1,
@@ -89,6 +92,9 @@
             slideToClickedSlide: true
           });
           mySwiper1.controller.control = mySwiper2;
+        },
+      }
+    })();
         
      </script>
      
