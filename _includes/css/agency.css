@@ -6,11 +6,12 @@
 
 body {
     overflow-x: hidden;
+    overflow-y: auto;
 /*     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif; */
     font-family: 'Nanum Myeongjo', serif;
     color: #{{ site.data.template.color.secondary-dark }};
-    -ms-overflow-style: none;  
-    ::-webkit-scrollbar { display: none; }
+
+	
 
 }
 
