@@ -4,41 +4,24 @@
             <div class="row" >
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">일시・장소 </h2>
-                    
-                    
-               
-                    <img src="img/about/calendar.jpg" class="img-responsive img-centered" alt="" style=";width:90%;margin-top: 10%;margin-bottom: 15%;">
-<!--                     <img src="img/about/heart.png" class="img-responsive img-centered" alt="image-alt" style="width:8%;margin-left:57%;margin-top:-38%;margin-bottom:38%" href="#portfolioModal30" data-toggle="modal"> -->
-                    
+                    <img src="img/about/calendar.jpg" class="img-responsive img-centered" alt="" style=";width:90%;margin-top: 10%;margin-bottom: 15%;">                    
                     <hr width="30%" align="center" border-top: 1px solid #cccccc96;>
                     <h3 class="section-subheading text-muted" style="margin-top:10%;">국제신문사 빌딩 4층 K웨딩홀</h3>
                     <div class="timeline-body">
                                     <p class="text-muted"style="font-size:13px;margin-bottom:10%;">(1호선 동해선 교대역 3번 5번 출구)
                                                         <br>부산 연제구 중앙대로 1217 (거제동 76-2) 국제신문 4층
                                                       <br>TEL.051-555-9779
-                        </p>
-                                </div>
+                                    </p>
+                    </div>
                 </div>
             </div>
-          <div class="row">
+            <div class="row">
                 <div class="col-lg-12">
-<!--                     지도 -->
-<!--                     <div style="text-align: center;;margin-bottom:20px;">
-                    <a href="https://m.map.naver.com/search2/site.nhn?code=13560714#/map">
-                                <img alt="naver-map" class="map-icon" id="naver-map" src="img/NAVER Map.jpg"/>
-                    </a>
-                    <a href="https://m.map.kakao.com/actions/detailMapView?id=12629769&refService=place">
-                                <img alt="kakao-map" class="map-icon" id="kakao-map" src="img/kakao_map.png"/>
-                    </a>        
-                    <a href="https://goo.gl/maps/19RomQwJVhuJySQf6">        
-                               <img alt="google-map" class="map-icon" id="google-map" src="img/googlemapslogo.jpg"/>
-                    </a>        
-                    </div>   -->
                     
                     
 <!--                     네이버 지도 -->
                     
-                    <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
@@ -46,33 +29,31 @@
     <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=ktymkz1cl9"></script>
 </head>
 <body>
-<div id="map" style="width:100%;height:400px;"></div>
+    <div id="map" style="width:100%;height:400px;"></div>
+        <script>
+            var mapOptions = {
+                center: new naver.maps.LatLng(35.1960288,129.0792122),
+                zoom: 17
+            };
 
-<script>
-var mapOptions = {
-    center: new naver.maps.LatLng(35.1960288,129.0792122),
-    zoom: 17
-};
+            var map = new naver.maps.Map('map', mapOptions);
 
-var map = new naver.maps.Map('map', mapOptions);
-    
-//     결혼식장 위치
-var markerOptions = {
-position: new naver.maps.LatLng(35.1960288,129.0792122),
-map: map
-};
+            //     결혼식장 위치
+            var markerOptions = {
+            position: new naver.maps.LatLng(35.1960288,129.0792122),
+            map: map
+            };
 
-var marker = new naver.maps.Marker(markerOptions);
-
-</script>
+            var marker = new naver.maps.Marker(markerOptions);
+        </script>
 </body>
- <div class="timeline-body">                   
-<p class="text-muted"style="font-size: 15px;margin-top: 10%;text-align: center;font-family: 'Nanum Gothic', sans-serif;">
-  지도 앱으로 연결하기
-    </p>
-     </div>
+    <div class="timeline-body">                   
+        <p class="text-muted"style="font-size: 15px;margin-top: 10%;text-align: center;font-family: 'Nanum Gothic', sans-serif;">
+        지도 앱으로 연결하기
+        </p>
+    </div>
 <!--                     지도 -->
-                    <div style="text-align: center;;margin-bottom:20px;">
+                <div style="text-align: center;;margin-bottom:20px;">
                     <a href="https://m.map.naver.com/search2/site.nhn?code=13560714#/map">
                                 <img alt="naver-map" class="map-icon" id="naver-map" src="img/NAVER Map.jpg"/>
                     </a>
@@ -82,75 +63,62 @@ var marker = new naver.maps.Marker(markerOptions);
                     <a href="https://goo.gl/maps/19RomQwJVhuJySQf6">        
                                <img alt="google-map" class="map-icon" id="google-map" src="img/googlemapslogo.jpg"/>
                     </a>        
-                    </div>                     
-                    
-                    
-                    
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/metro.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>지하철</h4>
-<!--                                     <h4 class="subheading">Our Humble Beginnings</h4> -->
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">1호선/동해선 교대역 3번 5번 출구</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/bus.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>버스</h4>
-<!--                                     <h4 class="subheading">An Agency is Born</h4> -->
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">10 | 100-1 | 110-1 | 129-1 | 179 | 189 | 29 | 31 | 43 | 506 | 51 | 52 | 77</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/car.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>자동차</h4>
-<!--                                     <h4 class="subheading">Transition to Full Service</h4> -->
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">수정@@@@@@</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/tour-bus.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>신랑측 전세 버스</h4>
-<!--                                     <h4 class="subheading">Phase Two Expansion</h4> -->
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">군산 주공 5차 아파트 상가 우리은행 앞 오전7시 30</p>
-                                </div>
-                            </div>
-                        </li>
-<!--                         <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li> -->
-                    </ul>
+                </div>                     
+                        
+    <ul class="timeline">
+        <li>
+            <div class="timeline-image">
+                <img class="img-circle img-responsive" src="img/about/metro.png" alt="">
+            </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>지하철</h4>
+                </div>
+                <div class="timeline-body">
+                    <p class="text-muted">1호선/동해선 교대역 3번 5번 출구</p>
+                </div>
+            </div>
+        </li>
+        <li class="timeline-inverted">
+            <div class="timeline-image">
+                <img class="img-circle img-responsive" src="img/about/bus.png" alt="">
+            </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>버스</h4>
+                </div>
+                <div class="timeline-body">
+                    <p class="text-muted">10 | 100-1 | 110-1 | 129-1 | 179 | 189 | 29 | 31 | 43 | 506 | 51 | 52 | 77</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="timeline-image">
+                <img class="img-circle img-responsive" src="img/about/car.png" alt="">
+            </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>자동차</h4>
+                </div>
+                <div class="timeline-body">
+                    <p class="text-muted">수정@@@@@@</p>
+                </div>
+            </div>
+        </li>
+        <li class="timeline-inverted">
+            <div class="timeline-image">
+                <img class="img-circle img-responsive" src="img/about/tour-bus.png" alt="">
+            </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>신랑측 전세 버스</h4>
+                </div>
+                <div class="timeline-body">
+                    <p class="text-muted">군산 주공 5차 아파트 상가 우리은행 앞 오전7시 30</p>
+                </div>
+            </div>
+        </li>
+    </ul>
                 </div>
             </div>
         </div>
