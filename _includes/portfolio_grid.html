@@ -126,8 +126,20 @@
         <!-- 2個目のSwiper END -->
             
 
-         
-
+         <div id="animated-thumbnials">
+  <a href="img/wedding/wedding6.jpg">
+    <img src="img/wedding/wedding6.jpg" />
+  </a>
+  <a href="img/wedding/wedding6.jpg">
+    <img src="img/wedding/wedding6.jpg" />
+  </a>
+</div>
+            
+lightGallery(document.getElementById('animated-thumbnials'), {
+    thumbnail:true,
+    animateThumb: false,
+    showThumbByDefault: false
+}); 
                 
                 
 <!--             {% for post in site.posts %} 
