@@ -85,7 +85,7 @@
 
         iframeMaxWidth: '100%',
 
-//         download: true,
+        download: true,
         counter: true,
         appendCounterTo: '.lg-toolbar',
 
@@ -385,13 +385,13 @@
             $('.lg-backdrop').addClass('in');
         });
 
-//         setTimeout(function() {
-//             _this.$outer.addClass('lg-visible');
-//         }, this.s.backdropDuration);
+        setTimeout(function() {
+            _this.$outer.addClass('lg-visible');
+        }, this.s.backdropDuration);
 
-//         if (this.s.download) {
-//             this.$outer.find('.lg-toolbar').append('<a id="lg-download" aria-label="Download" target="_blank" download class="lg-download lg-icon"></a>');
-//         }
+        if (this.s.download) {
+            this.$outer.find('.lg-toolbar').append('<a id="lg-download" aria-label="Download" target="_blank" download class="lg-download lg-icon"></a>');
+        }
 
         // Store the current scroll top value to scroll back after closing the gallery..
         this.prevScrollTop = $(window).scrollTop();
@@ -806,22 +806,22 @@
 
         if (!_this.lgBusy) {
 
-//             if (this.s.download) {
-//                 var _src;
-//                 if (_this.s.dynamic) {
-//                     _src = _this.s.dynamicEl[index].downloadUrl !== false && (_this.s.dynamicEl[index].downloadUrl || _this.s.dynamicEl[index].src);
-//                 } else {
-//                     _src = _this.$items.eq(index).attr('data-download-url') !== 'false' && (_this.$items.eq(index).attr('data-download-url') || _this.$items.eq(index).attr('href') || _this.$items.eq(index).attr('data-src'));
+            if (this.s.download) {
+                var _src;
+                if (_this.s.dynamic) {
+                    _src = _this.s.dynamicEl[index].downloadUrl !== false && (_this.s.dynamicEl[index].downloadUrl || _this.s.dynamicEl[index].src);
+                } else {
+                    _src = _this.$items.eq(index).attr('data-download-url') !== 'false' && (_this.$items.eq(index).attr('data-download-url') || _this.$items.eq(index).attr('href') || _this.$items.eq(index).attr('data-src'));
 
-//                 }
+                }
 
-//                 if (_src) {
-//                     $('#lg-download').attr('href', _src);
-//                     _this.$outer.removeClass('lg-hide-download');
-//                 } else {
-//                     _this.$outer.addClass('lg-hide-download');
-//                 }
-//             }
+                if (_src) {
+                    $('#lg-download').attr('href', _src);
+                    _this.$outer.removeClass('lg-hide-download');
+                } else {
+                    _this.$outer.addClass('lg-hide-download');
+                }
+            }
 
             this.$el.trigger('onBeforeSlide.lg', [_prevIndex, index, fromTouch, fromThumb]);
 
