@@ -804,7 +804,7 @@
         var _length = this.$slide.length;
         var _time = _this.lGalleryOn ? this.s.speed : 0;
 
-//         if (!_this.lgBusy) {
+        if (!_this.lgBusy) {
 
 //             if (this.s.download) {
 //                 var _src;
