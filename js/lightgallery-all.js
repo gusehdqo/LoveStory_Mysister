@@ -385,9 +385,9 @@
             $('.lg-backdrop').addClass('in');
         });
 
-        setTimeout(function() {
-            _this.$outer.addClass('lg-visible');
-        }, this.s.backdropDuration);
+//         setTimeout(function() {
+//             _this.$outer.addClass('lg-visible');
+//         }, this.s.backdropDuration);
 
 //         if (this.s.download) {
 //             this.$outer.find('.lg-toolbar').append('<a id="lg-download" aria-label="Download" target="_blank" download class="lg-download lg-icon"></a>');
