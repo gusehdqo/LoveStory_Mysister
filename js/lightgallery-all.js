@@ -2691,7 +2691,7 @@
         scale: 1,
         zoom: true,
         actualSize: true,
-        enableZoomAfter: 100,
+        enableZoomAfter: 300,
         useLeftForZoom: getUseLeft()
     };
 
