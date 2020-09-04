@@ -319,7 +319,7 @@ header .intro-text {
 }
 /* main first line */
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 /*     font-family: {{ site.data.template.font.secondary }}; */
 /*     font-family: 'Nanum Myeongjo', serif; */
     font-family: 'Great Vibes', cursive;
