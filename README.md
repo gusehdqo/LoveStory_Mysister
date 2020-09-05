@@ -28,3 +28,12 @@ View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-th
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
+
+
+# License
+
+This work is dual-licensed under Apache 2.0 and MIT (or any later version).
+You can choose between one of them if you use this work.
+
+Where Swiper stuff is used is licenced under MIT. 
+Except of Swiper stuff, this work is licenced under Apache 2.0.
