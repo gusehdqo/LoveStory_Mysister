@@ -786,7 +786,7 @@ footer span.copyright {
     text-transform: none;
 /*     font-family: {{ site.data.template.font.primary }}; */
     font-family: 'Nanum Myeongjo', serif;
-    line-height: 40px;
+    line-height: 25px;
 }
 
 footer ul.quicklinks {
