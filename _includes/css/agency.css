@@ -299,7 +299,7 @@ header {
     background-attachment: scroll;
     /* 메인 사진 bae 20200719 */
     background-image: url('{{ site.baseurl }}/img/wedding/main.jpg'); 
-    background-position: 13% center;
+    background-position: 5% center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
