@@ -380,15 +380,19 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 7px;
-    text-transform: none;
+    /* margin-bottom: 7px; */
+    /* text-transform: none; */
 /*     font-family: {{ site.data.template.font.secondary }}; */
+    display: flex;
     font-family: 'Nanum Myeongjo', serif;
     font-size: 20px;
 /*     font-style: italic; */
     font-weight: 400;
     text-align: center;
-    white-space: pre-wrap;
+    /* white-space: pre-wrap; */
+    /* font-size:16px;line-height:30px;width:111%;margin-left:-17px;" */
+    align-items: center;
+	justify-content: center;
 }
 
 @media(min-width:768px) {
